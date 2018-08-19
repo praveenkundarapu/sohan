@@ -8,7 +8,7 @@ phases:
   post_build:
     commands:
       - echo build completed on 'date'
-      - mvn packages
+      - mvn package
 artifacts:
   files:
     - target/VProfile.war
